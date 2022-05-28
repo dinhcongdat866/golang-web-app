@@ -19,5 +19,5 @@ func main() {
 	})
 	r.HandleFunc("/echo", m.Echo)
 
-	http.ListenAndServe(":80", r)
+	http.ListenAndServe("80", r)
 }
